@@ -1,0 +1,7 @@
+<body>
+	{{ range $idx, $data := .New_movelist }}
+		<h3>{{ $data.Movetitles }}</h3>
+		{{ $data.Movedescriptions }}
+		<p>{{ $data.MovepubDates }}</p>
+	{{ end }}
+</body>
